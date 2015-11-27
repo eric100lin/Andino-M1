@@ -1,0 +1,68 @@
+{
+  "packages": [
+    {
+      "name": "Andino",
+      "maintainer": "Andestech",
+      "websiteURL": "http://www.andestech.com.tw/",
+      "email": "support@andestech.com",
+      "help": {
+        "online": "http://www.andestech.com.tw/"
+      },
+      "platforms": [
+        {
+          "name": "Andino ANDES Boards",
+          "architecture": "nds32",
+          "version": "1.6.5",
+          "category": "Andino",
+          "url": "http://knect.me/andino/M1/Andino-1.6.5.zip",
+          "archiveFileName": "Andino-1.6.5.zip",
+          "checksum": "SHA-256:7e332192c38a2dc228d26fc60c34fc53f60c88a66ef79caeebb2a7b94bb53be9",
+          "size": "105947",
+          "boards": [
+            {"name": "Andino M1"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Andino",
+              "name": "nds32le-elf-mculib-v3m",
+              "version": "4.0.3"
+            },
+            {
+              "packager": "Andino",
+              "name": "m2c_burner",
+              "version": "0.0.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "nds32le-elf-mculib-v3m",
+          "version": "4.0.3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://knect.me/andino/M1/nds32le-elf-mculib-v3m.tar.gz",
+              "archiveFileName": "nds32le-elf-mculib-v3m.tar.gz",
+              "checksum": "SHA-256:1733c60e4f6656e23145b9fcf2f926bf950ef3130d5fd578829879d37a7c5a72",
+              "size": "198813541"
+            }
+          ]
+        },
+        {
+          "name": "m2c_burner",
+          "version": "0.0.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://knect.me/andino/M1/m2c_burner.tar.gz",
+              "archiveFileName": "m2c_burner.tar.gz",
+              "checksum": "SHA-256:2463026432d6bd14611ad9eecb2d03b2ee876cd014407fdf362399e09cc3d24b",
+              "size": "7170560"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
